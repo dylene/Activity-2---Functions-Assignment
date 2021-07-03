@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int sum(int x, int y){
+
+   return x+y;
+}
+int main()
+{
+   int n1, n2, n3;
+   printf("Enter first positive number: ");
+   scanf("%d", &n1);
+   printf("Enter second positive number: ");
+   scanf("%d", &n2);
+
+   n3 = sum(n1, n2);
+   printf("Sum of the entered numbers: %d", n3);
+   return 0;
+}
