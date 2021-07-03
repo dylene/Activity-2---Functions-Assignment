@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+main(){
+
+		double x;
+		double y;
+		double difference;
+
+		printf("ABSOLUTE DIFFERENCE.\n\n");
+
+		printf("\nEnter value for x: ");
+		scanf(" %lf", &x);
+
+		printf("\nEnter value for y: ");
+		scanf(" %lf", &y);
+
+		difference = x-y;
+
+		if(difference < 0){
+			printf("\nAbsolute difference of x and y ( |x-y| ) is: %lf", difference*-1);
+		}else{
+			printf("\nAbsolute difference of x and y ( |x-y| ) is: \n%lf", difference);
+		}
+return 0;
+}
